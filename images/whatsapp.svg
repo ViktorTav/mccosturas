@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="Layer_1"
+   data-name="Layer 1"
+   viewBox="0 0 36 36"
+   version="1.1"
+   sodipodi:docname="whatsapp.svg"
+   width="36"
+   height="36"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)">
+  <metadata
+     id="metadata126">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>whatsapp-color</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1440"
+     inkscape:window-height="849"
+     id="namedview124"
+     showgrid="false"
+     inkscape:zoom="5.1494672"
+     inkscape:cx="-5.0761586"
+     inkscape:cy="10.530734"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="Layer_1" />
+  <defs
+     id="defs117">
+    <style
+       id="style115">.cls-1{fill:#25d366;fill-rule:evenodd;}</style>
+  </defs>
+  <title
+     id="title119">whatsapp-color</title>
+  <path
+     class="cls-1"
+     d="M 30.293125,5.7358484 A 17.190084,17.190084 0 0 0 18.040789,0.6560706 c -9.5450556,0 -17.31327499,7.7696692 -17.31327499,17.3205194 A 17.319072,17.319072 0 0 0 3.0463854,26.634676 L 0.58258455,35.611608 9.7653159,33.201431 a 17.308926,17.308926 0 0 0 8.2725741,2.111623 v 0 A 17.324868,17.324868 0 0 0 30.293125,5.7387468 v 0 z M 18.046586,32.395623 a 14.374104,14.374104 0 0 1 -7.331982,-2.01452 L 10.18706,30.066607 4.7377123,31.494162 6.187007,26.182496 5.8464226,25.637562 A 14.401641,14.401641 0 0 1 28.233679,7.7967459 14.410337,14.410337 0 0 1 18.045136,32.395623 Z m 7.898655,-10.791448 c -0.434788,-0.218844 -2.560904,-1.262336 -2.955112,-1.407265 -0.394207,-0.14493 -0.684067,-0.218843 -0.978273,0.218843 -0.294207,0.437687 -1.118855,1.407266 -1.371033,1.698573 -0.252177,0.291309 -0.505803,0.328991 -0.934795,0.110147 -0.428991,-0.218843 -1.830459,-0.675371 -3.478307,-2.150754 a 13.203074,13.203074 0 0 1 -2.420322,-2.99714 c -0.253627,-0.434789 -0.02754,-0.668125 0.192755,-0.879722 0.220294,-0.211598 0.434789,-0.504355 0.647835,-0.757981 a 2.847864,2.847864 0 0 0 0.434789,-0.724647 0.79856137,0.79856137 0 0 0 -0.03478,-0.757982 c -0.117394,-0.217394 -0.98697,-2.347858 -1.334802,-3.215984 -0.34783,-0.8681279 -0.708705,-0.724647 -0.975375,-0.744938 -0.26667,-0.020293 -0.540587,-0.013042 -0.826098,-0.013042 A 1.5942241,1.5942241 0 0 0 10.752287,10.52287 c -0.38986,0.43044 -1.5101645,1.481179 -1.5101645,3.611643 0,2.130462 1.5492955,4.185562 1.7666895,4.478319 0.217395,0.292758 3.052216,4.662382 7.4001,6.536319 1.031897,0.443484 1.837705,0.710154 2.463799,0.915955 a 5.9681955,5.9681955 0 0 0 2.724675,0.169567 c 0.831895,-0.121741 2.559454,-1.044941 2.923228,-2.0551 0.363772,-1.010158 0.362323,-1.884083 0.253626,-2.056549 -0.108697,-0.172467 -0.38986,-0.298554 -0.826098,-0.520297 v 0 z"
+     id="path121"
+     inkscape:connector-curvature="0"
+     style="fill:#ffffff;fill-rule:evenodd;stroke-width:0.14492947" />
+</svg>

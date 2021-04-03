@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mc Costuras</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <div id = "sidebar"></div>
+
+    <div id = "header">
+        
+        <div id = "logo"></div>
+
+        <img id = "menu" src = "images/menu.svg">
+
+        <nav id = "menu">
+
+            <ul>
+                
+                <li class = "selecionado">
+                    <span class = "linkmation"><a href="#inicio">Inicio</a></span>
+                </li>
+                <li>
+                    <span class = "linkmation"><a href="#sobre">Sobre</a></span>
+                </li>
+                <li>
+                    <span class = "linkmation"><a href="#servicos">Serviços</a></span>
+                </li>
+                <li>
+                    <span class = "linkmation"><a href="#localizacao">Localização</a></span>
+                </li>
+                <li>
+                    <span class = "linkmation"><a href="#contato">Contato</a></span>
+                </li>
+
+            </ul>
+
+        </nav>
+
+    </div>
+
+    <div id="content">
+
+        <section id = "inicio">
+
+            <img src = "images/Frase.png">
+    
+        </section>
+
+        <section id = "sobre">
+
+            <h1>Sobre:</h1>
+    
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent congue diam non luctus finibus. Mauris sit amet elit vel lectus sodales tempus quis vitae mauris. Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer a eros eu diam viverra cursus sed in libero. Proin dictum, est id congue porttitor, lacus tellus vestibulum risus, nec ultrices purus lectus eu ligula. Fusce faucibus tincidunt mi vel molestie. Aliquam varius interdum hendrerit. Sed neque tellus, fringilla in dui vel, sollicitudin convallis nisl. Curabitur finibus nisl gravida nisi aliquet, et consequat ligula venenatis. Nunc sit amet semper metus, nec volutpat lorem. Proin ac placerat ipsum. Nulla placerat ligula urna, in sagittis augue auctor quis. Donec elementum posuere ante vitae tristique. Phasellus et scelerisque arcu. Sed euismod lectus eu tellus iaculis pellentesque vel eget libero.</p>
+    
+        </section>
+    
+        <section class = "pink" id = "servicos">
+    
+            <h1>Serviços:</h1>
+    
+            <div id = "servicos">
+
+
+                <div id = "ajustes" class = "servico">
+
+                    <img src="./images/girl-skirt.svg">
+                    <span>Ajustes</span>
+
+                </div>
+
+                <div class = "servico">
+
+                    <img src="./images/jeans-pants.svg">
+                    <span>Barras</span>
+
+                </div>
+
+                <div class = "servico">
+
+                    <img src="./images/clothes-zipper.svg">
+                    <span>Trocas de zíper</span>
+
+                </div>
+
+                <div class = "servico">
+
+                    <img src="./images/sewing-thread.svg">
+                    <span>Costuras em geral</span>
+
+                </div>
+
+            </div>
+
+    
+        </section>
+    
+        <section id = "localizacao">
+    
+            <h1>Localização:</h1>
+    
+            <p>Você pode nos encontrar na rua João Dombrowski 102,  Braga, em São José dos Pinhais, PR:</p>
+
+            <iframe 
+                width="100%" 
+                height="450" 
+                style="border:0" 
+                loading="lazy" 
+                allowfullscreen 
+                src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJu3eJ8F733JQRq1kTIPXV0GE&key=AIzaSyDExRuptSCuCNGUsIpRqyCY_JlmYHkSti8&zoom=19">
+            </iframe>
+            
+        </section>
+    
+        <section class = "pink" id = "contato">
+    
+            <h1>Contato:</h1>
+    
+            <p>Se interessou pelo nossos serviços? Você pode nos contatar pelas formas abaixo, ou se preferir, nos contate pelo formulário ao mais abaixo:</p>
+    
+            <div id = "formas-de-contato">
+
+                <div class = "forma-de-contato">
+
+                    <img src = "images/whatsapp.svg" class = "icone">
+                    <span>(41) 99843-0947</span>
+    
+                </div>
+    
+                <div class = "forma-de-contato">
+    
+                    <img src = "images/email.svg" class = "icone">
+                    <span>cleide34f@gmail.com</span>
+    
+                </div>
+
+            </div>
+
+            <form action="">
+
+                <div id = "campos">
+
+                    <fieldset id = "first">
+
+                        <input id = "email" name = "email" type = "email" placeholder="E-mail *" required>
+                        <input id = "nome" name = "nome" type = "text" placeholder="Nome Completo*" required>
+                        <input id = "numero-telefone" name = "numero-telefone" placeholder="Telefone *" type = "text" required>
+
+                    </fieldset>
+
+                    <fieldset>
+
+                        <textarea id = "orcamento" name = "orcamento" type = "text" placeholder="Orçamento *" required></textarea>
+
+                    </fieldset>
+
+                </div>
+
+
+                <input type="submit" value="Enviar">
+
+            </form>
+
+
+            
+        </section>
+
+    </div>
+
+    <div id = "footer">
+
+
+
+    </div>
+
+
+    <script>
+
+        const limparLiSelecionado = ()=>{
+
+            $("nav#menu ul li").each(function(){
+
+                if ($(this).hasClass("selecionado")){
+
+                    $(this).removeClass("selecionado");
+                    return false;
+
+                }
+
+            });
+
+        }
+
+        const selecionarLi = (elemento)=>{
+
+            $(elemento).parent().parent().addClass("selecionado");
+
+        }
+
+        $("nav#menu ul li").each(function(){
+
+            $(this).click((e)=>{
+
+                limparLiSelecionado();
+                selecionarLi(e.target);
+
+            })
+
+        })
+
+        $(document).on("scroll",(e)=>{
+
+            if ($("section#inicio")[0].getBoundingClientRect().top < -660){
+
+                $("div#header").addClass("black");
+
+            }else $("div#header").removeClass("black");
+
+        })
+
+        $("img#menu").click(()=>{
+
+            
+
+        })
+
+        $("body, nav#menu ul li span").click((event)=>{
+
+            console.log(event);
+
+            if (event.target != $("img#menu")[0]){
+
+                if ($("nav#menu").hasClass("visible")){
+
+                    $("nav#menu").toggleClass("visible");
+
+                }
+
+            } else{
+
+                $("nav#menu").toggleClass("visible");
+
+            }
+
+        })
+    </script>
+    
+</body>
+</html>
