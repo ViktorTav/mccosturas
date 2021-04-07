@@ -66,7 +66,6 @@
     
             <div id = "servicos">
 
-
                 <div id = "ajustes" class = "servico">
 
                     <img src="./images/girl-skirt.svg">
@@ -172,83 +171,14 @@
 
     </div>
 
-    <div id = "footer">
+    <div class = "pink" id = "footer">
 
-
+        <p>Copyright &copy <span id = "ano"></span> - Mc Costuras</p>
+        <p>Criado por <span class = "linkmation white"><a href="https://victortaveira.tk" target="_blank">Victor Taveira</a></span></p>
 
     </div>
 
+    <script src="./js/index.js"></script>
 
-    <script>
-
-        const limparLiSelecionado = ()=>{
-
-            $("nav#menu ul li").each(function(){
-
-                if ($(this).hasClass("selecionado")){
-
-                    $(this).removeClass("selecionado");
-                    return false;
-
-                }
-
-            });
-
-        }
-
-        const selecionarLi = (elemento)=>{
-
-            $(elemento).parent().parent().addClass("selecionado");
-
-        }
-
-        $("nav#menu ul li").each(function(){
-
-            $(this).click((e)=>{
-
-                limparLiSelecionado();
-                selecionarLi(e.target);
-
-            })
-
-        })
-
-        $(document).on("scroll",(e)=>{
-
-            if ($("section#inicio")[0].getBoundingClientRect().top < -660){
-
-                $("div#header").addClass("black");
-
-            }else $("div#header").removeClass("black");
-
-        })
-
-        $("img#menu").click(()=>{
-
-            
-
-        })
-
-        $("body, nav#menu ul li span").click((event)=>{
-
-            console.log(event);
-
-            if (event.target != $("img#menu")[0]){
-
-                if ($("nav#menu").hasClass("visible")){
-
-                    $("nav#menu").toggleClass("visible");
-
-                }
-
-            } else{
-
-                $("nav#menu").toggleClass("visible");
-
-            }
-
-        })
-    </script>
-    
 </body>
 </html>
